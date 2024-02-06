@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.keyBoard{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    font-size: 17px;
+    width: 100vw;
+    height: 50vh;
+    top: 50vh;
+    position: relative;
+    text-align: center;
+}
+.key {
+    width: 50px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.q {
+}
+.w {
+}
+.e {
+}
+.r {
+}
+.t {
+}
+.y {
+}
+.u {
+}
+.i {
+}
+.o {
+}
+.p {
+}
+.a {
+}
+.s {
+}
+.d {
+}
+.f {
+}
+.g {
+}
+.h {
+}
+.j {
+}
+.k {
+}
+.l {
+}
+.z {
+    grid-column: 3;
+}
+.x {
+}
+.c {
+}
+.v {
+}
+.b {
+}
+.n {
+}
+.m {
+}
+.shift {
+}
+.space{
+    grid-column: 5;
+    width: 100px;
+}
+.ctrl {
+}
+.alt {
+}
+.subkey{
+    transform: translate(-50%);
+    left: 50%;
+    position: absolute;
+    bottom: 0;
+}
