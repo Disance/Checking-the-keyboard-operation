@@ -2,6 +2,9 @@ class GlowKey {
     constructor(selector){
         this.$key = document.querySelector(selector)
     }
+    clear(){
+        document.querySelector('.code-key').innerHTML = ""
+    }
     glow(){
         this.$key.style.background = "blue"
     }
@@ -13,7 +16,9 @@ class Keys extends GlowKey{
         this.$key.style.background = options.background
     }
 }
-
+document.querySelector('#clear').addEventListener('click' , function(){
+    keyQ.clear()
+})
 const keyQ = new Keys({
     selector: "#q",
 })
