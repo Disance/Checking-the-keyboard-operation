@@ -104,8 +104,12 @@ const keyCtrl = new Keys({
 const keySpace = new Keys({
     selector: "#space",
 })
-const ikx = 3
+
 document.onkeydown = function(event){
+    let codeKeybox = document.querySelector('.code-key')
+    let currentText = codeKeybox.innerHTML
+    let newText = event.code + "&nbsp&nbsp&nbsp&nbsp" + currentText
+    codeKeybox.innerHTML = newText
     switch (event.code) {
         case "KeyQ":
             keyQ.glow()

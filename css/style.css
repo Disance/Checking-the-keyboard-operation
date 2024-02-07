@@ -6,8 +6,8 @@
     display: grid;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     font-size: 17px;
-    width: 100vw;
-    height: 50vh;
+    width: 100%;
+    height: 50%;
     top: 50vh;
     position: relative;
     text-align: center;
@@ -31,4 +31,13 @@
     left: 50%;
     position: absolute;
     bottom: 0;
+}
+.window-for-view{
+    top: 40vh;
+    position: relative;
+    margin: auto;
+    width: 98%;
+    height: 20px;
+    border: 1px solid black;
+    overflow: hidden;
 }
