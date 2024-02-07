@@ -104,66 +104,98 @@ const keyCtrl = new Keys({
 const keySpace = new Keys({
     selector: "#space",
 })
+const ikx = 3
 document.onkeydown = function(event){
-    if (event.code == "KeyQ"){
-        keyQ.glow()
-    }else if(event.code == "KeyW"){
-        keyW.glow()
-    }else if(event.code == "KeyE"){
-        keyE.glow()
-    }else if(event.code == "KeyR"){
-        keyR.glow()
-    }else if(event.code == "KeyT"){
-        keyT.glow()
-    }else if(event.code == "KeyY"){
-        keyY.glow()
-    }else if(event.code == "KeyU"){
-        keyU.glow()
-    }else if(event.code == "KeyI"){
-        keyI.glow()
-    }else if(event.code == "KeyO"){
-        keyO.glow()
-    }else if(event.code == "KeyP"){
-        keyP.glow()
-    }else if(event.code == "KeyA"){
-        keyA.glow()
-    }else if(event.code == "KeyS"){
-        keyS.glow()
-    }else if(event.code == "KeyD"){
-        keyD.glow()
-    }else if(event.code == "KeyF"){
-        keyF.glow()
-    }else if(event.code == "KeyG"){
-        keyG.glow()
-    }else if(event.code == "KeyH"){
-        keyH.glow()
-    }else if(event.code == "KeyJ"){
-        keyJ.glow()
-    }else if(event.code == "KeyK"){
-        keyK.glow()
-    }else if(event.code == "KeyL"){
-        keyL.glow()
-    }else if(event.code == "KeyZ"){
-        keyZ.glow()
-    }else if(event.code == "KeyX"){
-        keyX.glow()
-    }else if(event.code == "KeyC"){
-        keyC.glow()
-    }else if(event.code == "KeyV"){
-        keyV.glow()
-    }else if(event.code == "KeyB"){
-        keyB.glow()
-    }else if(event.code == "KeyN"){
-        keyN.glow()
-    }else if(event.code == "KeyM"){
-        keyM.glow()
-    }else if(event.code == "ControlLeft"){
-        keyCtrl.glow()
-    }else if(event.code == "Space"){
-        keySpace.glow()
-    }else if(event.code == "AltLeft"){
-        keyAlt.glow()
-    }else if(event.code == "ShiftLeft"){
-        keyShift.glow()
+    switch (event.code) {
+        case "KeyQ":
+            keyQ.glow()
+            break
+        case "KeyW":
+            keyW.glow()
+            break
+        case "KeyE":
+            keyE.glow()
+            break
+        case "KeyR":
+            keyR.glow()
+            break
+        case "KeyT":
+            keyT.glow()
+            break
+        case "KeyY":
+            keyY.glow()
+            break
+        case "KeyU":
+            keyU.glow()
+            break
+        case "KeyI":
+            keyI.glow()
+            break
+        case "KeyO":
+            keyO.glow()
+            break
+        case "KeyP":
+            keyP.glow()
+            break
+        case "KeyA":
+            keyA.glow()
+            break
+        case "KeyS":
+            keyS.glow()
+            break
+        case "KeyD":
+            keyD.glow()
+            break
+        case "KeyF":
+            keyF.glow()
+            break
+        case "KeyG":
+            keyG.glow()
+            break
+        case "KeyH":
+            keyH.glow()
+            break
+        case "KeyJ":
+            keyJ.glow()
+            break
+        case "KeyK":
+            keyK.glow()
+            break
+        case "KeyL":
+            keyL.glow()
+            break
+        case "KeyZ":
+            keyZ.glow()
+            break
+        case "KeyX":
+            keyX.glow()
+            break
+        case "KeyC":
+            keyC.glow()
+            break
+        case "KeyV":
+            keyV.glow()
+            break
+        case "KeyB":
+            keyB.glow()
+            break
+        case "KeyN":
+            keyN.glow()
+            break
+        case "KeyM":
+            keyM.glow()
+            break
+        case "ShiftLeft":
+            keyShift.glow()
+            break
+        case "ControlLeft":
+            keyCtrl.glow()
+            break
+        case "AltLeft":
+            keyAlt.glow()
+            break
+        case "Space":
+            keySpace.glow()
+            break
     }
 }
